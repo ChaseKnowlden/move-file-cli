@@ -24,5 +24,5 @@ const cli = meow(`
 const [source, destination] = cli.input;
 
 (async () => {
-				await moveFile(source, destination, cli.flags);
+	await moveFile(source, destination, cli.flags);
 })();
