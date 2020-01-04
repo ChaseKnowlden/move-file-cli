@@ -43,7 +43,7 @@
   },
   "homepage": "https://github.com/ChaseKnowlden/move-file-cli#readme",
   "dependencies": {
-    "meow": "^5.0.0",
+    "meow": "^6.0.0",
     "move-file": "^1.2.0"
   },
   "devDependencies": {
