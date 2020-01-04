@@ -9,4 +9,4 @@ test('main', async t => {
   fs.writeFileSync(sourceFile, '🦄');
   await execa('./cli.js', [sourceFile, destinationFile]);
   t.is(fs.readFileSync(destinationFile, 'utf8'), '🦄');
-})
+});
