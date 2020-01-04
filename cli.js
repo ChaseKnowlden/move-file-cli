@@ -13,16 +13,16 @@ const cli = meow(`
         Example
           $ move-file source/unicorn.png destination/unicorn.png
 `, {
-  flags: {
-    overwrite: {
-      type: 'boolean',
-      default: true
-    }
-  }
+	flags: {
+		overwrite: {
+			type: 'boolean',
+			default: true
+		}
+	}
 });
 
 const [source, destination] = cli.input;
 
 (async () => {
-  await moveFile(source, destination, cli.flags);
+	await moveFile(source, destination, cli.flags);
 })();
