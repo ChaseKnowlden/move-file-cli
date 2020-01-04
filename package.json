@@ -1,0 +1,55 @@
+{
+  "name": "@chaseknowlden/move-file-cli",
+  "version": "1.0.0",
+  "description": "Move a file on the command-line",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "bin": {
+    "move-file": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaseKnowlden/move-file-cli.git"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "move",
+    "file",
+    "mv",
+    "fs",
+    "stream",
+    "file-system",
+    "ncp",
+    "fast",
+    "quick",
+    "data",
+    "content",
+    "contents",
+    "devices",
+    "partitions"
+  ],
+  "author": "ChaseKnowlden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChaseKnowlden/move-file-cli/issues"
+  },
+  "homepage": "https://github.com/ChaseKnowlden/move-file-cli#readme",
+  "dependencies": {
+    "meow": "^6.0.0",
+    "move-file": "^1.2.0"
+  },
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "execa": "^4.0.0",
+    "tempy": "^0.3.0",
+    "xo": "^0.25.3"
+  }
+}
